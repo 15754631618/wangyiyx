@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header img {
+    width: 100%;
+}
+
+#nav img {
+    display: block;
+    width: 100%;
+}
+
+#part {
+    width: 100%;
+    height: 420px;
+    margin-top: 3px
+}
+
+#part .partCon .banner .scroll {
+    width: 100% !important;
+}
+
+#part .partCon {
+    width: 100%;
+    height: 420px;
+    /* margin: 0 auto; */
+}
+
+
+/* #part .partCon .left {
+    float: left;
+}
+
+#part .partCon .right {
+    float: right;
+} */
+
+#part .partCon .banner {
+    /* float: left; */
+    width: 100%;
+    height: 420px;
+    position: relative;
+}
+
+#part .partCon .banner a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 180px;
+    z-index: 2;
+}
+
+#part .partCon .banner a.prev {
+    display: none;
+    background: url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x1/icon-normal-s33e647f656-a21248af33.png);
+    background-position: 0 -5408px;
+}
+
+#part .partCon .banner a.prev:hover {
+    background-position: 0 -5408px;
+}
+
+#part .partCon .banner a.next {
+    display: none;
+    right: 0px;
+    background: url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-web/p/20150730/style/img/x1/icon-normal-s33e647f656-a21248af33.png);
+    background-position: 0 -5628px;
+}
+
+#part .partCon .banner a.next:hover {
+    background-position: 0 -5628px;
+}
+
+#part .partCon .banner .scroll {
+    width: 100%;
+    height: 419px;
+    background: #abcdef;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+#part .partCon .banner .scroll .img {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+#part .partCon .banner .scroll .img.first {
+    left: 0;
+}
+
+#part .partCon .banner .btn {
+    padding: 0;
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    left: 46%;
+    bottom: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#part .partCon .banner .btn span {
+    width: 10px;
+    height: 10px;
+    background: #666;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#part .partCon .banner .btn span.hover {
+    background: #ff0099;
+}

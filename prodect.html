@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/project.css" type="text/css">
+    <link rel="stylesheet" href="src/css/new_file.css" type="text/css">
+    <link rel="stylesheet" href="src/css/stairway.css" type="text/css">
+    <link rel="stylesheet" href="../xiangmu1/src/css/denglu.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        .hover-list {
+            z-index: 999;
+        }
+        
+        .register-two-nav ul,
+        .register-two-nav-2 ul {
+            z-index: 99999;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- 前两个nav -------------------------------------------------------------------------->
+    <div class="big-nav">
+
+        <!--1. black-nav -->
+        <div class="black-nav">
+            <!-- black-nav居中 -->
+            <div class="black-nav-center">
+                <!-- black-nav居中-左侧 -->
+                <div class="black-nav-center-left">
+                    <ul>
+                        <li>
+                            <img class="ppp" src="https://yanxuan.nosdn.127.net/d132c2561f18f1149d566a60d05fd9b7.gif" alt="">
+                            <a href="#" style="color: #b4a078;">&nbsp &nbsp用指定手机Pay上严选购物，订单【满60立减30】</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="register">
+                    <div><a data-toggle="modal" data-target="#register" href="">登录/注册<span>|</span></a></div>
+                    <div><a href="">我的订单<span>|</span></a></div>
+                    <div><a href="">会员<span>|</span></a></div>
+                    <div><a href="">甄选家<span>|</span></a></div>
+                    <div class="register-two-nav"><a href="">企业采购<i></i><span>|</span></a>
+                        <ul>
+                            <li><a href="#">企业购</a></li>
+                            <li><a href="#">礼品卡</a></li>
+                            <li><a href="#">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="register-two-nav-2"><a href="">客户服务<i></i><span>|</span></a>
+                        <ul>
+                            <li><a href="#">在线客服</a></li>
+                            <li><a href="#">帮助中心</a></li>
+                            <li><a href="#">商务合作</a></li>
+                            <li><a href="#">开放平台</a></li>
+                        </ul>
+                    </div>
+                    <div><a href="">APP</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!--2. white-nav -------------------------------------------------------------------->
+        <div class="big-white-nav">
+            <div class="white-nav-center">
+                <div class="white-nav-logo"></div>
+                <div class="search">
+                    <!-- 放大镜 -->
+                    <i></i>
+                    <!-- 搜索条input -->
+                    <input type="text" class="int" placeholder="4公4母 大闸蟹180元起" />
+                    <!-- <div class="sou-word">4公4母 大闸蟹180元起</div> -->
+                    <!-- 搜索条按钮 -->
+                    <div class="btn">搜索</div>
+                </div>
+                <!-- 购物车 -->
+                <div></div>
+                <!-- last nav -->
+                <div class="last-nav">
+                    <ul>
+                        <li class="one list"><a href="">首页</a></li>
+                        <li class="list" name='jujia'><a href="javascript:;">居家生活</a></li>
+                        <li class="list" name='jujia' name='jujia'><a href="javascript:;">服饰鞋包</a></li>
+                        <li class="list" name='jujia'><a href="javascript:;">美食酒水</a></li>
+                        <li class="list" name='jujia'><a href="javascript:;">个护清洁</a></li>
+                        <li class="list" name='jujia'><a href="javascript:;">母婴亲子</a></li>
+                        <li class="list" name='jujia'><a href="javascript:;">运动旅行</a></li>
+                        <li class="list" name='jujia'><a href="javascript:;">数码家电</a></li>
+                        <li class="list" name='jujia'><a href="javascript:;">全球特色</a></li>
+                        <li class="list" name='jujia'><a href="javascript:;">为你严选</a></li>
+                        <li class="two list" name='jujia'><a href="javascript:;">众筹</a></li>
+                    </ul>
+                    <div class="hover-list">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 轮播 ------------------------------------------------------------------------------->
+    <div id="part">
+        <div class="partCon">
+            <div class="banner">
+                <a href="javascript:void(0)" class="prev"></a>
+                <a href="javascript:void(0)" class="next"></a>
+                <!--下一张按钮 -->
+                <div class="scroll">
+                    <div class="img first">
+                        <img class="first" src="https://yanxuan.nosdn.127.net/f27863ddfa72999a2ce467f477ff851a.jpg?imageView&quality=95&thumbnail=1920x420" />
+                    </div>
+                    <div class="img">
+                        <img src="https://yanxuan.nosdn.127.net/c6eb64628d7962c463d0623ea990fe10.jpg?imageView&quality=95&thumbnail=1920x420" alt="" />
+                    </div>
+                    <div class="img">
+                        <img src="https://yanxuan.nosdn.127.net/3729a2c1740cb881509ab8445d6a10da.jpg?imageView&quality=95&thumbnail=1920x420" alt="" />
+                    </div>
+                    <div class="img">
+                        <img src="https://yanxuan.nosdn.127.net/c4ba2429b8f6b9440c50a0939da15399.jpg?imageView&quality=95&thumbnail=1920x420" alt="" />
+                    </div>
+                    <div class="img">
+                        <img src="https://yanxuan.nosdn.127.net/5926e56d88b57a430cf50425669b59cb.jpg?imageView&quality=95&thumbnail=1920x420" alt="" />
+                    </div>
+                    <div class="img">
+                        <img src="https://yanxuan.nosdn.127.net/e587a2cb58954a5e6256ccf46e069e0d.jpg?imageView&quality=95&thumbnail=1920x420" alt="" />
+                    </div>
+                    <!-- <img class="first" src="https://yanxuan.nosdn.127.net/4784734d0b0a4290e8e5035d3c567999.jpg?imageView&quality=95&thumbnail=1920x420" />
+                    <img src="https://yanxuan.nosdn.127.net/7841ec54134842e564301665996e43c5.jpg?imageView&quality=95&thumbnail=1920x420" />
+                    <img src="https://yanxuan.nosdn.127.net/3729a2c1740cb881509ab8445d6a10da.jpg?imageView&quality=95&thumbnail=1920x420" />
+                    <img src="https://yanxuan.nosdn.127.net/c52374f0da0747c90f70b8d543f0e2e2.jpg?imageView&quality=95&thumbnail=1920x420" />
+                    <img src="https://yanxuan.nosdn.127.net/4481b00781ba051c8c0767dec0009f1a.jpg?imageView&quality=95&thumbnail=1920x420" />
+                    <img src="https://yanxuan.nosdn.127.net/e587a2cb58954a5e6256ccf46e069e0d.jpg?imageView&quality=95&thumbnail=1920x420" /> -->
+                </div>
+                <div class="btn">
+                    <span class="hover"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 楼梯、品牌制造商 -------------------------------------------------------------------->
+    <div class="Type-area-box">
+        <!-- 版心盒子居中 -->
+        <div class="area-box-center">
+            <!-- 楼梯 -->
+            <div class="stairway">
+                <!--左侧楼梯-->
+                <div id="loutinav">
+                    <ul>
+                        <li class="active"><span>品牌制造</span> </li>
+                        <li><span>新品首发</span> </li>
+                        <li><span>品牌制造</span> </li>
+                        <li><span>3C运动</span> </li>
+                        <!-- <li><span>爱吃</span> </li>
+                        <li><span>还没逛够</span> </li> -->
+                        <li class="last">顶部</li>
+                    </ul>
+                </div>
+                <!--楼层内容开始-->
+                <div id="header">
+
+                </div>
+
+                <div id="main">
+                    <div class="louti louti-one center">
+                        <!-- 文字：品牌制造商 -->
+                        <div class="wenna-st">
+                            <h3>品牌制造商</h3>
+                            <span>工厂直达消费者，剔除品牌溢价</span>
+                            <p>更多制造商 ></p>
+                        </div>
+                        <!-- 海外制造商111111框 -->
+                        <div class="pic">
+                            <!-- 11 --->
+                            <div class="pic-one pic-1 wenan-style">
+                                <img src="http://yanxuan.nosdn.127.net/74e2ea8f81004d0a60f90fc8e4649058.png" alt="">
+                                <div class="nav-pic">
+                                    <span>海外制造商</spa!n>
+                                <i>上新</i>
+                            </div >
+                                <p>9.9元起</p>
+                            </div>
+                            <!-- 22 --->
+                            <div class="pic-one pic-o wenan-style">
+                                <img src="http://yanxuan.nosdn.127.net/c097be14110f769d58245cdad73e15c3.png" alt="">
+                                <div class="nav-pic">
+                                    <span>CK制造商</span>
+                                    <i>精品</i>
+                                </div>
+
+                                <p>29.9元起</p>
+                            </div>
+                            <!-- 33 --->
+                            <div class="pic-two pic-c pic-pic">
+                                <img src="http://yanxuan.nosdn.127.net/2ef40536e86eba997dc17cab62697a44.png" alt="">
+                                <span>新秀丽制造商</span>
+                                <p>159元起</p>
+                            </div>
+                            <!-- 44 --->
+                            <div class="pic-two pic-p pic-pic">
+                                <img src="http://yanxuan.nosdn.127.net/2ef40536e86eba997dc17cab62697a44.png" alt="">
+                                <span>Armani制造商</span>
+                                <p>199元起</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="louti louti-one louti-one-g center">
+                        <!-- 文字：品牌制造商 -->
+                        <div class="wenna-st">
+                            <h3>新品首发</h3>
+                            <span>为你寻觅世间好物</span>
+                            <p>更多新品 ></p>
+                        </div>
+                        <!-- 海外制造商222222框 -->
+                        <div class="pic">
+                            <!-- 22 --->
+                            <div class="pic-one pic-1 wenan-style">
+                                <img src="http://yanxuan.nosdn.127.net/74e2ea8f81004d0a60f90fc8e4649058.png" alt="">
+                                <div class="nav-pic">
+                                    <span>海外制造商</span>
+                                    <i>上新</i>
+                                </div>
+                                <p>9.9元起</p>
+                            </div>
+                            <!-- 22 --->
+                            <div class="pic-one pic-o wenan-style">
+                                <img src="http://yanxuan.nosdn.127.net/c097be14110f769d58245cdad73e15c3.png" alt="">
+                                <div class="nav-pic">
+                                    <span>CK制造商</span>
+                                    <i>精品</i>
+                                </div>
+
+                                <p>29.9元起</p>
+                            </div>
+                            <!-- 33 --->
+                            <div class="pic-two pic-c pic-pic">
+                                <img src="http://yanxuan.nosdn.127.net/2ef40536e86eba997dc17cab62697a44.png" alt="">
+                                <span>新秀丽制造商</span>
+                                <p>159元起</p>
+                            </div>
+                            <!-- 44 --->
+                            <div class="pic-two pic-p pic-pic">
+                                <img src="http://yanxuan.nosdn.127.net/2ef40536e86eba997dc17cab62697a44.png" alt="">
+                                <span>Armani制造商</span>
+                                <p>199元起</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="louti louti-one louti-one-g center">
+                        <!-- 文字：品牌制造商 -->
+                        <div class="wenna-st">
+                            <h3>品牌制造商</h3>
+                            <span>工厂直达消费者，剔除品牌溢价</span>
+                            <p>更多制造商 ></p>
+                        </div>
+                        <!-- 海外制造商333333框 -->
+                        <div class="pic">
+                            <!-- 33 --->
+                            <div class="pic-one pic-1 wenan-style">
+                                <img src="http://yanxuan.nosdn.127.net/74e2ea8f81004d0a60f90fc8e4649058.png" alt="">
+                                <div class="nav-pic">
+                                    <span>海外制造商</spa!n>
+                                    <i>上新</i>
+                                </div >
+                                    <p>9.9元起</p>
+                                </div>
+                                <!-- 22 --->
+                                <div class="pic-one pic-o wenan-style">
+                                    <img src="http://yanxuan.nosdn.127.net/c097be14110f769d58245cdad73e15c3.png" alt="">
+                                    <div class="nav-pic">
+                                        <span>CK制造商</span>
+                                    <i>精品</i>
+                                </div>
+
+                                <p>29.9元起</p>
+                            </div>
+                            <!-- 33 --->
+                            <div class="pic-two pic-c pic-pic">
+                                <img src="http://yanxuan.nosdn.127.net/2ef40536e86eba997dc17cab62697a44.png" alt="">
+                                <span>新秀丽制造商</span>
+                                <p>159元起</p>
+                            </div>
+                            <!-- 44 --->
+                            <div class="pic-two pic-p pic-pic">
+                                <img src="http://yanxuan.nosdn.127.net/2ef40536e86eba997dc17cab62697a44.png" alt="">
+                                <span>Armani制造商</span>
+                                <p>199元起</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="louti center">
+                        <ul>
+                            <!-- <li>
+                                <a href=""><img src="https://yanxuan-item.nosdn.127.net/943d2b07a933aa1472e652221cf3c16b.jpg?quality=95&thumbnail=265x265&imageView&quality=95&thumbnail=265x265&imageView" alt=""> 网易味央金猪迎秋礼盒 8枚装</a>
+                                <p>¥138</p>
+                            </li>
+                            <li>
+                                <a href=""><img src="https://yanxuan-item.nosdn.127.net/943d2b07a933aa1472e652221cf3c16b.jpg?quality=95&thumbnail=265x265&imageView&quality=95&thumbnail=265x265&imageView" alt="">网易味央金猪迎秋礼盒 8枚装</a>
+                                <p>¥138</p>
+                            </li>
+                            <li>
+                                <a href=""><img src="https://yanxuan-item.nosdn.127.net/943d2b07a933aa1472e652221cf3c16b.jpg?quality=95&thumbnail=265x265&imageView&quality=95&thumbnail=265x265&imageView" alt="">网易味央金猪迎秋礼盒 8枚装</a>
+                                <p>¥138</p>
+                            </li>
+                            <li>
+                                <a href=""><img src="https://yanxuan-item.nosdn.127.net/943d2b07a933aa1472e652221cf3c16b.jpg?quality=95&thumbnail=265x265&imageView&quality=95&thumbnail=265x265&imageView" alt="">网易味央金猪迎秋礼盒 8枚装</a>
+                                <p>¥138</p>
+                            </li> -->
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- <div id="footer">
+                    网站底部
+                </div> -->
+            </div>
+
+            <!-- 文字：品牌制造商 -->
+            <!-- <div>
+                <h3>品牌制造商</h3>
+                <span>工厂直达消费者，剔除品牌溢价</span>
+                <p>更多制造商 ></p>
+            </div> -->
+            <!-- 海外制造商4框 -->
+            <!-- <div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div> -->
+            <!-- 文字：新品首发 -->
+            <!-- <div>
+                <h3>新品首发</h3>
+                <span>为你寻觅世间好物</span>
+                <p>更多新品 ></p>
+            </div> -->
+            <!-- 小轮播-4 -->
+            <!-- <div></div> -->
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- <ul class="nav navbar-nav navbar-right">
+        <li><a data-toggle="modal" data-target="#register" href=""><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+        <li><a data-toggle="modal" data-target="#login" href=""><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+    </ul> -->
+    <!-- 注册窗口 ---------------------------------------------------------------------->
+    <div id="register" class="modal fade" tabindex="-1">
+        <!-- <div class="modal-dialog"> -->
+        <div class="modal-content">
+            <div class="modal-body">
+                <button class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-title">
+                <p class="text-center">手机号登录</p>
+                <span class="sp"></span>
+                <span class="text-center-two"><a>邮箱登录</a></span>
+            </div>
+            <!--  手机号登录 |  邮箱登录-------------------------------------------------->
+            <div class="modal-body-i">
+                <!-- <form class="form-group" action="" method="POST"> -->
+                <div class="form-group">
+                    <p class="duanxin"><a href="">使用密码验证登录</a> </p>
+                    <div class="phone-logo"></div>
+                    <input class="form-control user" name="user" type="text" placeholder="请输入手机号">
+                </div>
+                <div class="form-group">
+                    <label for="">密码</label>
+                    <input class="form-control pass" type="password" name="pass" placeholder="至少6位字母或数字">
+                </div>
+                <div class="form-group">
+                    <label for="">输入验证码</label>
+                    <input class="form-control" type="password" placeholder="至少6位字母或数字">
+                </div>
+                <!--  <div class="form-group">
+                        <label for="">邮箱</label>
+                        <input class="form-control" type="email" placeholder="例如:123@123.com">
+                    </div> -->
+                <div class="text-right">
+                    <button class="btn btn-primary">提交</button>
+                    <button class="btn btn-danger">取消</button>
+                </div>
+                <!-- <a href="" data-toggle="modal" data-dismiss="modal" data-target="#login">已有账号？点我登录</a> -->
+                <!-- </form> -->
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+    <!-- 登录窗口 ---------------------------------------------------------------------->
+    <!-- <div id="login" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-title">
+                    <h1 class="text-center">登录</h1>
+                </div>
+                <div class="modal-body">
+                    <form class="form-group" action="">
+                        <div class="form-group">
+                            <label for="">用户名</label>
+                            <input class="form-control" type="text" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">密码</label>
+                            <input class="form-control" type="password" placeholder="">
+                        </div>
+                        <div class="text-right">
+                            <button class="btn btn-primary" type="submit">登录</button>
+                            <button class="btn btn-danger" data-dismiss="modal">取消</button>
+                        </div>
+                        <a href="" data-toggle="modal" data-dismiss="modal" data-target="#register">还没有账号？点我注册</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> -->
+</body>
+<script src="./src/js/jquery.js"></script>
+<script src="./src/js/nav.js"></script>
+<script src="./src/js/lunbo.js"></script>
+<script src="./src/js/stairway.js"></script>
+<!-- <script src="http://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script> -->
+<script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="./src/js/xuanran.js"></script>
+
+</html>

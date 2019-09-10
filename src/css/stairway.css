@@ -1,0 +1,445 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: 'microsoft yahei';
+}
+
+html,
+body {
+    width: 100%;
+}
+
+#loutinav {
+    width: 35px;
+    position: fixed;
+    top: 80px;
+    left: 50px;
+    border: 1px solid #ddd;
+    display: none;
+}
+
+#loutinav ul li {
+    width: 35px;
+    height: 32px;
+    border-bottom: 1px dotted #DDDDDD;
+    list-style: none;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    padding: 10px 0;
+    background: #918888;
+    color: #fff;
+}
+
+#loutinav ul li span {
+    width: 35px;
+    height: 32px;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#loutinav ul li.last {
+    background: #5e4a4a;
+    color: #fff;
+    border-bottom: 1px solid #ddd;
+} */
+
+
+/* #loutinav ul li.active span {
+    background: #c00;
+    color: #fff;
+    display: block;
+} */
+
+
+/* #loutinav ul li:hover span {
+    background: #c00;
+    color: #fff;
+    display: block;
+} */
+
+
+/* #header {
+    width: 1000px;
+    height: 1px;
+    background: #cc6633;
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 1000px;
+    text-align: center;
+    color: #000;
+}
+
+#main {
+    width: 1000px;
+    background: #6d6d6d;
+    margin: 0 auto;
+}
+
+.louti-one {
+    height: 368px;
+    width: 1090px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    line-height: 600px;
+}
+
+#main .louti-one h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    float: left;
+    margin-right: 20px;
+    color: #333;
+}
+
+#main .louti-one span {
+    padding-top: 13px;
+    display: inline-block;
+    line-height: 1;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#footer {
+    width: 1000px;
+    height: 400px;
+    background: red;
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 400px;
+    text-align: center;
+    color: #000;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+#main {
+    margin-top: 30px;
+}
+
+.wenna-st {
+    width: 1090px;
+    height: 48px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    /* position: absolute; */
+}
+
+.wenna-st h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-right: 20px;
+    color: #333;
+    margin-bottom: 0;
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    /* overflow: hidden; */
+}
+
+.louti-one .wenna-st span {
+    padding-top: 1stpx;
+    box-sizing: border-box;
+    line-height: 40px;
+    margin-bottom: 0;
+    position: relative;
+    float: left;
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.louti-one .wenna-st p {
+    /* 
+    line-height: 1;
+    margin-left: 30px;
+    cursor: pointer;
+    line-height: 27px;
+    margin-bottom: 0; */
+    position: relative;
+    line-height: 40px;
+    float: right;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.louti-one-g {
+    margin-top: 60px;
+}
+
+#header {
+    margin-top: 11px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+#loutinav {
+    width: 55px;
+    height: 40px;
+    position: fixed;
+    top: 80px;
+    /* left: 20px; */
+    border: 1px solid #ddd;
+    display: none;
+}
+
+#loutinav ul li {
+    width: 53px;
+    height: 40px;
+    border-bottom: 1px dotted rgb(0, 0, 0);
+    list-style: none;
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    padding: 10px 0;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+#loutinav ul li span {
+    width: 53px;
+    height: 48px;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#loutinav ul li.last {
+    background: #5e4a4a;
+    color: #fff;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#loutinav ul li.active span {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+#loutinav ul li:hover span {
+    background: #c00;
+    color: #fff;
+    display: block;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+
+/* .pic {
+   
+    width: 1090px;
+    height: 320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pic-one {
+    height: 320px;
+    margin-left: 0;
+    width: 357px;
+    float: left;
+   
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.pic-one img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+}
+
+.pic-o {
+    margin: 0 0 0 10px
+}
+
+.pic-two {
+    width: 357px;
+    float: right;
+    margin-left: 4px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.pic-p {
+    position: relative;
+    top: 6px
+} */
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.pic {
+    width: 1090px;
+    height: 320px;
+    margin: 0 auto;
+    /* background-color: #c00; */
+}
+
+.pic-one {
+    height: 320px;
+    width: 357px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+}
+
+.pic-two {
+    height: 155px;
+    width: 357px;
+    float: right !important;
+    /* margin-left: 15px; */
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: rgb(133, 57, 57);
+    text-decoration: none;
+}
+
+.pic-c {
+    float: right !important;
+    margin-bottom: 10px
+}
+
+.pic-o {
+    z-index: 99999;
+    margin-left: 9px!important;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+
+/* .pic .wenan-style span {
+    float: left;
+    font-size: 24px !important;
+    margin: 48px 0 19px;
+    line-height: 1;
+    border-right: 0;
+    border-left: 0;
+    position: relative;
+    z-index: 3;
+    color: #666;
+    display: inline-block;
+    top: -330px;
+    left: 119px;
+}
+
+p {
+    margin: 0 !important;
+    top: 60px;
+    left: -91px;
+}
+
+.pic .wenan-style p {
+    font-size: 14px;
+    padding-top: 17px;
+    display: inline-block;
+    width: auto;
+    border-top: 1px solid #666;
+    position: relative;
+    text-align: center
+}
+
+.pic .wenan-style i {
+    position: absolute;
+    font-style: normal;
+    font-size: 11px;
+    text-align: center;
+    line-height: 19px;
+    width: 32px;
+    height: 21px;
+    color: #fff;
+    background: url(//yanxuan.nosdn.127.net/18ccda99a6f55ef573b3fb098b4d01b8.png) center no-repeat;
+} */
+
+.nav-pic {
+    font-size: 24px;
+    margin: 48px 0 19px;
+    line-height: 1;
+    position: relative;
+    z-index: 3;
+    color: #666;
+    top: -320px;
+}
+
+.wenan-style i {
+    font-style: normal;
+    position: absolute;
+    font-size: 11px;
+    line-height: 19px;
+    width: 32px;
+    height: 21px;
+    color: #fff;
+    background: url(//yanxuan.nosdn.127.net/18ccda99a6f55ef573b3fb098b4d01b8.png) center no-repeat;
+}
+
+.wenan-style p {
+    font-size: 14px;
+    padding-top: 17px;
+    display: inline-block;
+    width: auto;
+    border-top: 1px solid #666;
+    position: relative;
+    top: -320px
+}
+
+.pic-pic span {
+    /* font-size: 24px;
+   
+    line-height: 1;
+    */
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    z-index: 3;
+    color: #666;
+    top: -133px;
+    left: -133px;
+}
+
+.pic-pic p {
+    padding-top: 10px;
+    margin-left: 20px;
+    float: left;
+    position: relative;
+    top: -90px;
+    border-top: 1px solid #666;
+    color: #666
+}

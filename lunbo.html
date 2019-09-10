@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./src/css/new_file.css" />
+</head>
+
+<body>
+    <div id="part">
+        <div class="partCon">
+            <div class="banner">
+                <a href="javascript:void(0)" class="prev"></a>
+                <a href="javascript:void(0)" class="next"></a>
+                <!--下一张按钮 -->
+                <div class="scroll">
+                    <img class="first" src="./src/css/img/flash1.jpg" />
+                    <img src="./src/css/img/flash2.jpg" />
+                    <img src="./src/css/img/flash3.jpg" />
+                    <img src="./src/css/img/flash4.jpg" />
+                    <img src="./src/css/img/flash5.png" />
+                    <img src="./src/css/img/flash6.jpg" />
+                </div>
+                <div class="btn">
+                    <span class="hover"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="./src/js/jquery-1.11.3.js"></script>
+    <script type="text/javascript">
+        const $banner = $('.banner'); //大盒子
+        const $img = $('.scroll img'); //移动的图片
+        const $btn = $('.btn span'); //按钮
+        const $prev = $('.prev'); //左箭头
+        const $next = $('.next'); //右箭头
+        let $qindex = 0; //前一个索引
+        let $index = 0; //当前索引
+
+        function fn() {
+            //按钮点击事件
+            $btn.on('click', function() {
+                $index = $(this).index(); //当前点击的索引赋值给当前索引
+                $(this).addClass('hover').siblings().removeClass('hover'); //原点加hover方法 显示、隐藏
+                if ($index > $qindex) {
+                    $img.eq($index).css({
+                        left: $img.width()
+                    })
+                    $img.eq($index).animate({
+                        left: 0
+                    })
+                    $img.eq($qindex).animate({
+                        left: -$img.width()
+                    })
+                    $qindex = $index;
+                } else if ($index < $qindex) {
+                    $img.eq($index).css({
+                        left: -$img.width()
+                    })
+                    $img.eq($index).animate({
+                        left: 0
+                    })
+                    $img.eq($qindex).animate({
+                        left: $img.width()
+                    })
+                    $qindex = $index;
+                }
+            });
+
+
+            //左右箭头显示隐藏
+            $banner.hover(function() {
+                $('.next,.prev').show()
+            }, function() {
+                $('.next,.prev').hide();
+            })
+
+            //右侧按钮
+            $next.on('click', function() {
+                if ($index === 5) {
+                    $index = 0;
+                    $btn.eq($index).addClass('hover').siblings().removeClass('hover');
+                    $img.eq($index).css({
+                        left: $img.width()
+                    })
+                    $img.eq($index).animate({
+                        left: 0
+                    })
+                    $img.eq($qindex).animate({
+                        left: -$img.width()
+                    })
+                    $qindex = $index
+                } else if ($index < 5) {
+                    $index++;
+                    $btn.eq($index).addClass('hover').siblings().removeClass('hover');
+                    $img.eq($index).css({
+                        left: $img.width()
+                    })
+                    $img.eq($index).animate({
+                        left: 0
+                    })
+                    $img.eq($qindex).animate({
+                        left: -$img.width()
+                    })
+                    $qindex = $index
+                }
+
+            })
+
+            //左侧按钮
+            $prev.on('click', function() {
+                if ($index === 0) {
+                    $index = 5;
+                    $btn.eq($index).addClass('hover').siblings().removeClass('hover');
+                    $img.eq($index).css({
+                        left: $img.width()
+                    })
+                    $img.eq($index).animate({
+                        left: 0
+                    })
+                    $img.eq($qindex).animate({
+                        left: -$img.width()
+                    })
+                    $qindex = $index
+                } else if ($index > 0) {
+                    $index--;
+                    $btn.eq($index).addClass('hover').siblings().removeClass('hover');
+                    $img.eq($index).css({
+                        left: $img.width()
+                    })
+                    $img.eq($index).animate({
+                        left: 0
+                    })
+                    $img.eq($qindex).animate({
+                        left: -$img.width()
+                    })
+                    $qindex = $index
+                }
+
+            })
+        }
+        fn()
+    </script>
+</body>
+
+</html>

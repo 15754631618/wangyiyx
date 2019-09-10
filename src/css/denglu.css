@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: #C7EDCC; */
+    font-family: "microsoft yahei";
+}
+
+li {
+    list-style: none
+}
+
+a {
+    text-decoration: none
+}
+
+.modal-content {
+    width: 386px;
+    height: 482px;
+    width: 386px;
+    background: #fff;
+    display: block;
+    height: auto!important;
+    border: 1px solid #F5F3EF;
+    position: relative;
+    top: 20%;
+    box-sizing: border-box;
+    border-radius: 0;
+    margin: 0 auto;
+}
+
+.text-center {
+    color: #333;
+    margin-left: 25px;
+    font-size: 18px;
+    float: left;
+}
+
+.text-center-two {
+    cursor: pointer;
+    color: #999;
+    font-size: 18px;
+    /* float: left; */
+}
+
+.sp {
+    width: 1px;
+    height: 20px;
+    background: #ddd;
+    margin-left: 55px;
+    float: left;
+}
+
+.text-center-two {
+    margin-left: 55px;
+}
+
+.text-center-two a {
+    color: #999;
+}
+
+.modal-title {
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 0;
+    line-height: 18px;
+    width: 306px;
+    overflow: hidden;
+    margin: 0 auto !important;
+    font-family: fantasy
+}
+
+.text-center-two:hover a {
+    color: #B4A078;
+    text-decoration: none
+}
+
+
+/* -------------------------------------------------------------------- */
+
+.modal-body-i {
+    /* padding: 58px 40px 83px; */
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    width: 304px;
+    background: none;
+    border-radius: 0;
+}
+
+.form-group .form-control:focus {
+    /* outline: none !important; */
+    box-shadow: none !important;
+    border-color: #ccc;
+    /* position: absolute; */
+}
+
+
+/* .form-group .form-control {
+    outline: none !important;
+    border：0
+} */
+
+.duanxin {
+    height: 26px;
+    line-height: 26px;
+    float: right;
+    padding: 0 0 0 34px;
+}
+
+.duanxin a {
+    color: #666;
+    text-decoration: none;
+}
+
+.duanxin:hover a {
+    color: #B4A078;
+    text-decoration: none;
+}
+
+.modal-body-i {
+    top: 15px
+}
+
+.form-control {
+    border-radius: 0;
+    width: 300px;
+    height: 38px;
+    padding-left: 50px !important;
+}
+
+.phone-logo {
+    background: url(http://yanxuan.nosdn.127.net/49f4a785eb9ded4831d8cb0ede642b3e.png) 4px 2px no-repeat;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    width: 28px;
+    height: 24px;
+    margin-top: 0px;
+    padding-right: 7px;
+    border-right: 1px solid #e8e8e8;
+    line-height: 36px;
+    position: relative;
+    bottom: -43px;
+    left: 10px;
+    z-index: 99999;
+}

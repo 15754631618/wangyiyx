@@ -1,0 +1,372 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        list-style: none
+    }
+    
+    a {
+        text-decoration: none !important;
+    }
+    
+    .scroll .img {
+        /* background:url(https://yanxuan.nosdn.127.net/4784734d0b0a4290e8e5035d3c567999.jpg?imageView&quality=95&thumbnail=1920x420) no-repeat center/cover; */
+        height: 100%;
+        width: 100%
+    }
+    
+    .center {
+        margin: auto;
+    }
+    
+    .scroll img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        /* width: 1336px; */
+        /* position: absolute; */
+        /* 
+        display: flex;
+        margin: auto; */
+    }
+    
+    .black-nav {
+        position: relative;
+        height: 36px;
+        line-height: 36px;
+        background-color: #333;
+        z-index: 5;
+        font-size: 12px;
+    }
+    
+    .black-nav-center {
+        width: 1090px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .black-nav-center-left {
+        line-height: 36px;
+        display: inline-block;
+        float: left;
+        text-align: center
+    }
+    
+    .black-nav-center-left .ppp {
+        margin-bottom: 2px
+    }
+    
+    .register {
+        /* float: right; */
+        box-sizing: border-box;
+        /* position: relative; */
+        height: 36px;
+        line-height: 36px;
+        display: inline-block;
+        float: right;
+    }
+    
+    .register>div {
+        float: left;
+        margin-left: 10px;
+        position: relative;
+        color: #ccc;
+    }
+    
+    .register>div a {
+        color: #ccc;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .register>div span {
+        color: #5c5c5c;
+        display: inline-block;
+        height: 36px;
+        line-height: 36px;
+        padding: 0 2px 0 12px
+    }
+    /* 二级导航 star*/
+    
+    .big-white-nav {
+        height: 140px;
+        position: relative;
+        height: 143px;
+        background-color: #fff;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+        box-sizing: border-box;
+        line-height: 1.5;
+        font-family: "Microsoft Yahei", "微软雅黑", verdana;
+        color: #333;
+    }
+    
+    .big-white-nav .white-nav-center {
+        height: 140px;
+        width: 1090px;
+        margin: 0 auto;
+        position: relative;
+        box-sizing: border-box;
+    }
+    /* logo star */
+    
+    .big-white-nav .white-nav-logo {
+        background: url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-sbc152a7ee5-e7ebdc8b2c.png);
+        background-position: 0 -202px;
+        height: 60px;
+        width: 124px;
+        position: absolute;
+        top: 24px;
+        left: 0;
+    }
+    /* logo end */
+    
+    .register-two-nav i,
+    .register-two-nav-2 i {
+        background-repeat: no-repeat;
+        background: url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-sbc152a7ee5-e7ebdc8b2c.png);
+        margin-left: 10px;
+        vertical-align: middle;
+        background-position: 0 -424px;
+        height: 5px;
+        width: 11px;
+        display: inline-block;
+        overflow: hidden;
+        word-spacing: normal;
+        letter-spacing: normal;
+        transform: rotate(180deg);
+    }
+    
+    .register ul,
+    .register-two-nav-2 ul {
+        position: absolute;
+        display: none;
+    }
+    
+    .register ul li,
+    .register-two-nav-2 ul li {
+        height: 37px;
+        line-height: 37px;
+        width: 85px;
+        margin: auto;
+        text-align: center;
+        z-index: 99999;
+    }
+    
+    .register-two-nav:hover ul {
+        display: block;
+        z-index: 99999;
+    }
+    
+    .register-two-nav-2:hover ul {
+        display: block;
+    }
+    
+    .register ul li a,
+    .register-two-nav-2 ul li a {
+        font-size: 12px;
+        color: rgb(167, 167, 167)
+    }
+    /* 二级导航 over*/
+    
+    .white-nav-center {
+        height: 100%;
+        width: 1090px;
+        margin: 0 auto;
+        position: relative;
+        box-sizing: border-box;
+    }
+    /* 搜索框 */
+    
+    .search {
+        position: relative;
+        left: -143px;
+        /* margin-top: 26px;
+         */
+        float: right;
+        width: 572px;
+        height: 36px;
+        margin-top: 26px;
+    }
+    /* 搜索框--放大镜 */
+    
+    .search i {
+        background: url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-sbc152a7ee5-e7ebdc8b2c.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 18px;
+        top: 12px;
+        background-position: 0 -312px;
+        height: 14px;
+        width: 14px;
+    }
+    
+    .int {
+        position: absolute !important;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        display: block;
+        height: 38px;
+        line-height: 38px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border: 1px solid #B4A078;
+        border-bottom-left-radius: 19px;
+        border-top-left-radius: 19px;
+        width: 442px;
+        padding-left: 38px;
+        overflow: hidden;
+        background: 0 0;
+        line-height: 1.5;
+        box-sizing: border-box;
+    }
+    
+    .search .btn {
+        width: 90px;
+        height: 38px;
+        display: inline-block;
+        background-color: #B4A078;
+        border-top-right-radius: 19px;
+        border-bottom-right-radius: 19px;
+        float: right;
+        color: #fff;
+        line-height: 23px;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-right: 43px;
+    }
+    
+    .big-white-nav .sou-word {
+        position: absolute;
+        display: inline-block;
+        text-align: center;
+        line-height: 38px;
+        left: 40px;
+        color: rgb(182, 182, 182);
+        font-size: 14px;
+    }
+    /* 搜索框end */
+    
+    .last-nav {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+    
+    .hover-list {
+        position: absolute;
+        top: 6px;
+        background: rgb(255, 255, 255);
+        width: 100%;
+        display: none;
+    }
+    
+    .hover-list li {
+        font-size: 16px;
+        line-height: 36px;
+        padding: 0 20px;
+        /* border-bottom: 1px solid #ddd; */
+    }
+    
+    .hover-list img {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        text-align: middle;
+        vertical-align: middle;
+    }
+    
+    .last-nav span {
+        display: inline-block;
+        text-align: center;
+        font-size: 14px
+        /* position: relative;
+        top: -13px; */
+    }
+    
+    .hover-list h3 {
+        display: inline-block;
+        margin-bottom: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 36px;
+        border-bottom: 1px solid #ddd;
+        padding: 0 20px;
+    }
+    
+    .last-nav>ul {
+        font-weight: 700;
+        position: absolute;
+        height: 30px;
+        bottom: 21px;
+        width: 100%;
+        margin-bottom: 0 !important;
+    }
+    
+    .last-nav ul .list {
+        float: left;
+        margin-top: 27px;
+        padding: 0 25px;
+        font-size: 14px;
+    }
+    
+    .last-nav .one {
+        padding: 0 27px 0 0 !important;
+    }
+    
+    .last-nav .two {
+        padding: 0 0 0 27px
+    }
+    
+    .last-nav a {
+        color: black;
+        padding-bottom: 7px;
+    }
+    
+    .last-nav .list:hover a {
+        color: #b4a078;
+        border-bottom: 3px solid #b4a078;
+    }
+    
+    .aa {
+        color: rgb(0, 0, 0);
+    }
+    
+    .louti {
+        width: 1090px;
+        overflow: hidden;
+        margin: 0 auto !important;
+    }
+    
+    .louti ul li {
+        float: left;
+        margin: 0 10px 50px 0;
+        width: 265px;
+        text-align: center;
+    }
+    
+    .louti ul li:nth-last-of-type(1) {
+        margin-right: 0;
+    }
+    
+    .louti ul li a {
+        color: #333;
+    }
+    
+    .louti ul li img {
+        width: 256px;
+        height: 256px;
+        display: block;
+        margin-bottom: 40px;
+    }
+    
+    #register .modal-content {
+        height: 385px !important;
+    }
+    
+    .text-right {
+        margin-bottom: 30px;
+    }

@@ -1,0 +1,430 @@
+#logobox .logomain:after, #qingdan .qingdan-title:after, #qingdan .qingdan-title .f1:after, #qingdan .qingdanlist .shop-title:after, #jiesuan .jisuan-main:after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  line-height: 0;
+  overflow: hidden; }
+
+body, html {
+  width: 100%; }
+  body a, html a {
+    text-decoration: none; }
+  body i, html i {
+    font-style: normal; }
+  body img, html img {
+    display: block; }
+  body .wrapper, html .wrapper {
+    width: 960px;
+    margin: 0 auto; }
+
+#top {
+  height: 34px;
+  background: #ff2832; }
+
+#shoppingcartbox {
+  width: 960px;
+  margin: 0 auto;
+  padding: 17px 0 0; }
+
+#logobox {
+  width: 100%;
+  border-bottom: 4px solid #ff2832;
+  height: 100px; }
+  #logobox .logomain {
+    width: 960px;
+    margin: 0 auto; }
+    #logobox .logomain span {
+      display: inline-block;
+      text-align: center;
+      width: 211px; }
+    #logobox .logomain .step {
+      float: right;
+      width: 637px;
+      height: 36px;
+      background: url(http://shopping.dangdang.com/shoppingcart/images/procedure_bg.png) 0 0 no-repeat;
+      font: bold 14px/36px "Microsoft Yahei";
+      color: #646464;
+      margin: 30px 0 0; }
+      #logobox .logomain .step .my-shopping-cart {
+        color: #fff;
+        width: 206px; }
+    #logobox .logomain .logo {
+      padding: 20px 0 0 15px; }
+
+#empty-box {
+  width: 960px;
+  margin: 0 auto; }
+  #empty-box .empty-main {
+    padding: 90px 0 0 495px;
+    background: url(http://shopping.dangdang.com/shoppingcart/images/empty.png) 90px 46px no-repeat;
+    height: 190px; }
+    #empty-box .empty-main p {
+      font-size: 14px;
+      color: #8a8888; }
+    #empty-box .empty-main a {
+      width: 116px;
+      height: 38px;
+      display: inline-block;
+      background-color: #ff2832;
+      color: #fff;
+      text-align: center;
+      line-height: 38px;
+      font-size: 18px;
+      margin: 30px 20px 0 0;
+      border-radius: 2px; }
+
+#distribution {
+  width: 100%;
+  font-size: 14px;
+  background-color: #fafafa;
+  word-break: break-all; }
+  #distribution .main {
+    width: 960px;
+    margin: 0 auto; }
+    #distribution .main .address {
+      height: 22px;
+      line-height: 22px;
+      margin: 15px 0;
+      background-color: #fcfcfc;
+      border: 1px solid #ebebeb;
+      padding: 0 15px;
+      border-radius: 12px;
+      display: inline-block; }
+      #distribution .main .address > span {
+        width: 22px;
+        height: 22px;
+        background: url(http://shopping.dangdang.com/shoppingcart/images/icon_sprite.png) 0 5px no-repeat;
+        display: inline-block;
+        margin-right: 5px; }
+      #distribution .main .address .juti {
+        position: relative;
+        display: inline-block;
+        z-index: 1003; }
+        #distribution .main .address .juti .city {
+          color: #646464;
+          border: 1px solid #ebebeb;
+          border-width: 0 1px;
+          height: 22px;
+          line-height: 22px;
+          padding: 0 14px 0 5px;
+          background: url(http://shopping.dangdang.com/shoppingcart/images/icon_sprite.png) no-repeat right -53px #fff;
+          cursor: pointer;
+          position: relative;
+          z-index: 88;
+          display: block; }
+
+#qingdan {
+  width: 960px;
+  margin: 0 auto;
+  font: 12px/36px "Microsoft Yahei"; }
+  #qingdan .qingdan-title {
+    line-height: 36px;
+    height: 36px;
+    margin-top: 10px; }
+    #qingdan .qingdan-title li {
+      float: left;
+      text-align: center;
+      color: #bcbcbc; }
+    #qingdan .qingdan-title .f1 {
+      text-align: left;
+      width: 202px; }
+      #qingdan .qingdan-title .f1 input {
+        float: left;
+        color: #bcbcbc;
+        display: block;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #bcbcbc;
+        background-color: #fff;
+        border-radius: 3px;
+        line-height: 0;
+        overflow: hidden;
+        margin: 12px 10px 0 0; }
+      #qingdan .qingdan-title .f1 span {
+        display: block;
+        float: left; }
+    #qingdan .qingdan-title .f2 {
+      text-align: left;
+      width: 280px; }
+    #qingdan .qingdan-title .f3 {
+      width: 130px;
+      float: left; }
+    #qingdan .qingdan-title .f4 {
+      width: 130px; }
+    #qingdan .qingdan-title .f5 {
+      width: 70px; }
+  #qingdan .qingdanlist .shop-title {
+    color: #323232;
+    font-weight: bold;
+    line-height: 24px;
+    height: 24px;
+    margin: 10px 0;
+    padding-left: 15px; }
+    #qingdan .qingdanlist .shop-title li {
+      float: left;
+      margin-right: 9px; }
+    #qingdan .qingdanlist .shop-title .title-1 {
+      margin-top: 2px; }
+    #qingdan .qingdanlist .shop-title .icon {
+      margin-top: 3px;
+      width: 18px;
+      height: 18px;
+      background: url(http://shopping.dangdang.com/shoppingcart/images/icon_sprite.png) 0 -30px no-repeat;
+      margin: 3px 6px 0 0; }
+    #qingdan .qingdanlist .shop-title .title-3 a {
+      color: #323232;
+      font-weight: bold;
+      line-height: 24px; }
+  #qingdan .qingdanlist .shopping-list {
+    border: 1px solid #ebebeb;
+    background-color: #fafafa;
+    margin-bottom: 40px; }
+    #qingdan .qingdanlist .shopping-list .table-box {
+      text-align: center; }
+    #qingdan .qingdanlist .shopping-list .every-list {
+      display: none; }
+      #qingdan .qingdanlist .shopping-list .every-list .row-1 {
+        padding: 0 0 0 10px;
+        width: 42px;
+        vertical-align: middle;
+        border-bottom: 0;
+        position: relative;
+        line-height: 22px;
+        text-align: center; }
+        #qingdan .qingdanlist .shopping-list .every-list .row-1 input {
+          width: 14px;
+          height: 14px;
+          margin: 0 10px 0 0; }
+      #qingdan .qingdanlist .shopping-list .every-list .row-img {
+        padding: 20px 20px 20px 0;
+        width: 80px;
+        border-bottom: 0;
+        position: relative;
+        z-index: 9;
+        font-size: 0;
+        line-height: 0;
+        vertical-align: top;
+        padding: 20px 20px 20px 0;
+        width: 80px;
+        border-bottom: 0;
+        position: relative;
+        z-index: 9;
+        font-size: 0;
+        line-height: 0;
+        border-bottom: 1px solid #e4e4e4; }
+        #qingdan .qingdanlist .shopping-list .every-list .row-img img {
+          width: 80px; }
+      #qingdan .qingdanlist .shopping-list .every-list .row-name {
+        vertical-align: top;
+        width: 330px;
+        line-height: 18px;
+        text-align: left;
+        position: relative;
+        padding-top: 17px;
+        border-bottom: 1px solid #e4e4e4; }
+        #qingdan .qingdanlist .shopping-list .every-list .row-name .name {
+          display: block;
+          width: 100%;
+          height: 36px;
+          overflow: hidden;
+          margin-bottom: 27px; }
+        #qingdan .qingdanlist .shopping-list .every-list .row-name .mingxi {
+          padding: 0 16px 0 6px;
+          display: inline-block;
+          height: 22px;
+          line-height: 22px;
+          color: #fff;
+          border-radius: 2px;
+          background: url(http://shopping.dangdang.com/shoppingcart/images/icon_sprite.png) right -177px no-repeat #f66; }
+      #qingdan .qingdanlist .shopping-list .every-list .row-3 {
+        width: 130px;
+        vertical-align: top;
+        padding-top: 15px;
+        position: relative;
+        line-height: 22px;
+        text-align: center;
+        border-bottom: 1px solid #e4e4e4; }
+        #qingdan .qingdanlist .shopping-list .every-list .row-3 span {
+          display: block; }
+        #qingdan .qingdanlist .shopping-list .every-list .row-3 .xianshijia {
+          color: #323232;
+          font-size: 13px; }
+        #qingdan .qingdanlist .shopping-list .every-list .row-3 .qiang {
+          color: #ff2832; }
+      #qingdan .qingdanlist .shopping-list .every-list .fn-count-tip {
+        width: 130px;
+        vertical-align: top;
+        padding-top: 15px;
+        position: relative;
+        line-height: 22px;
+        text-align: center;
+        border-bottom: 1px solid #e4e4e4; }
+        #qingdan .qingdanlist .shopping-list .every-list .fn-count-tip span {
+          display: block;
+          border: 1px solid #dcdcdc;
+          height: 28px;
+          width: 94px;
+          line-height: 28px;
+          font-size: 14px;
+          margin: 5px auto;
+          overflow: hidden; }
+        #qingdan .qingdanlist .shopping-list .every-list .fn-count-tip input {
+          width: 36px;
+          height: 28px;
+          float: left;
+          padding: 0;
+          text-align: center;
+          border: 1px solid #dcdcdc;
+          border-width: 0 1px;
+          background-color: #fff;
+          font-weight: bold; }
+        #qingdan .qingdanlist .shopping-list .every-list .fn-count-tip .jian, #qingdan .qingdanlist .shopping-list .every-list .fn-count-tip .jia {
+          display: block;
+          float: left;
+          height: 28px;
+          width: 28px;
+          background-color: #f4f4f4; }
+      #qingdan .qingdanlist .shopping-list .every-list .row-4 {
+        color: #323232;
+        width: 130px;
+        vertical-align: top;
+        padding-top: 15px;
+        position: relative;
+        line-height: 22px;
+        text-align: center;
+        border-bottom: 1px solid #e4e4e4; }
+        #qingdan .qingdanlist .shopping-list .every-list .row-4 span {
+          color: #ff2832; }
+      #qingdan .qingdanlist .shopping-list .every-list .row-5 {
+        width: 70px;
+        vertical-align: top;
+        padding-top: 15px;
+        position: relative;
+        line-height: 22px;
+        text-align: center;
+        border-bottom: 1px solid #e4e4e4; }
+        #qingdan .qingdanlist .shopping-list .every-list .row-5 span {
+          display: block; }
+    #qingdan .qingdanlist .shopping-list .footer .row-1 {
+      padding: 0 0 0 10px;
+      width: 42px;
+      vertical-align: middle;
+      border-bottom: none 0;
+      border-top: 1px solid #dcdcdc;
+      position: relative;
+      line-height: 22px;
+      text-align: center; }
+    #qingdan .qingdanlist .shopping-list .footer .row-img {
+      z-index: 9;
+      width: 80px;
+      vertical-align: top;
+      text-align: center;
+      color: #323232;
+      font-weight: bold;
+      line-height: 22px;
+      font-size: 12px;
+      padding: 15px 20px 15px 0; }
+    #qingdan .qingdanlist .shopping-list .footer .null {
+      border-bottom: none 0;
+      border-top: 1px solid #dcdcdc;
+      vertical-align: top;
+      padding-top: 15px;
+      position: relative;
+      line-height: 22px;
+      text-align: center; }
+    #qingdan .qingdanlist .shopping-list .footer .row-4 {
+      color: #323232;
+      vertical-align: top;
+      width: 130px;
+      text-align: right;
+      line-height: 18px;
+      position: relative;
+      padding-top: 10px; }
+      #qingdan .qingdanlist .shopping-list .footer .row-4 span {
+        display: block; }
+      #qingdan .qingdanlist .shopping-list .footer .row-4 .jiage {
+        text-align: right;
+        line-height: 18px;
+        font-size: 16px;
+        padding-right: 144px;
+        padding-top: 8px;
+        color: #ff2832; }
+      #qingdan .qingdanlist .shopping-list .footer .row-4 .baoyou {
+        position: absolute;
+        line-height: 18px;
+        left: -66px;
+        top: 18px; }
+        #qingdan .qingdanlist .shopping-list .footer .row-4 .baoyou .more {
+          padding: 0 8px 0 4px;
+          background: url(http://shopping.dangdang.com/shoppingcart/images/pop_shipping.png) 65px 7px no-repeat;
+          color: #1a66b3; }
+
+#jiesuan {
+  position: fixed;
+  bottom: -20px;
+  z-index: 101;
+  width: 100%;
+  left: 0px; }
+  #jiesuan .jisuan-main {
+    width: 960px;
+    height: 72px;
+    z-index: 10;
+    margin: 20px auto;
+    padding: 0 62px;
+    background: url(http://shopping.dangdang.com/shoppingcart/images/shopping_total.png) 0 center no-repeat;
+    position: relative; }
+    #jiesuan .jisuan-main .right {
+      float: right;
+      margin: 18px 0 0;
+      width: 530px;
+      position: relative; }
+      #jiesuan .jisuan-main .right a {
+        float: right;
+        display: block;
+        width: 116px;
+        height: 38px;
+        font: bold 18px/38px "Microsoft Yahei";
+        color: #fff;
+        background-color: #ff2832;
+        border-radius: 2px;
+        text-align: center;
+        margin-top: 4px;
+        background-color: #e1e1e1; }
+      #jiesuan .jisuan-main .right .jiesheng {
+        padding-right: 30px;
+        line-height: 24px;
+        float: right; }
+        #jiesuan .jisuan-main .right .jiesheng span {
+          display: inline-block;
+          font: 12px/24px "Microsoft Yahei";
+          line-height: 24px; }
+        #jiesuan .jisuan-main .right .jiesheng .zongji {
+          width: 114px;
+          text-align: right;
+          padding: 0 8px 0 0; }
+        #jiesuan .jisuan-main .right .jiesheng .zongjinum {
+          font-size: 18px;
+          color: #ff2832; }
+        #jiesuan .jisuan-main .right .jiesheng .yijiesheng {
+          width: 114px;
+          text-align: right;
+          padding: 0 8px 0 0; }
+    #jiesuan .jisuan-main .left {
+      float: left;
+      line-height: 58px;
+      width: 430px;
+      position: relative; }
+      #jiesuan .jisuan-main .left .piliangdelete {
+        color: #323232;
+        margin-left: 28px; }
+      #jiesuan .jisuan-main .left span {
+        margin-left: 80px;
+        line-height: 58px; }
+      #jiesuan .jisuan-main .left b {
+        color: red; }
+
+.have {
+  display: none; }
+
+/*# sourceMappingURL=gouwuche.css.map */
